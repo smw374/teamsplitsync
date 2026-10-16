@@ -40,11 +40,15 @@ vignettes/*.pdf
 .Renviron
 .env
 
-# pkgdown site
-docs/
+# Keep docs/ tracked: instructor guidance and team planning live here.
 
 # translation temp files
 po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Local secrets and operating-system files
+.env.*
+!.env.example
+.DS_Store
